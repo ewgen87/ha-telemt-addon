@@ -1,6 +1,6 @@
 {
   "name": "Telemt MTProxy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "slug": "telemt",
   "description": "Telegram MTProto proxy (Telemt)",
   "arch": ["armv7", "arm64", "amd64"],
@@ -10,7 +10,6 @@
   "host_network": true,
   "ingress": false,
   "panel_icon": "mdi:server-network",
-  "image": "ghcr.io/an0nx/telemt-docker:latest",
   "options": {
     "secret": "00000000000000000000000000000000",
     "port": 443
