@@ -1,0 +1,19 @@
+{
+  "name": "Telemt MTProxy",
+  "version": "1.0.0",
+  "slug": "telemt",
+  "description": "Telegram MTProto proxy (Telemt) for Home Assistant",
+  "arch": ["armv7", "arm64", "amd64"],
+  "startup": "services",
+  "boot": "auto",
+  "host_network": true,
+  "init": false,
+  "options": {
+    "secret": "00000000000000000000000000000000",
+    "port": 443
+  },
+  "schema": {
+    "secret": "str",
+    "port": "int"
+  }
+}
