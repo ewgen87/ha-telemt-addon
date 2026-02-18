@@ -1,4 +1,3 @@
 name: Telemt Add-on Repository
-url: https://github.com/ewgen87/ha-telemt-addon
+url: "https://github.com/ewgen87/ha-telemt-addon"
 maintainer: ewgen87
-type: addon
